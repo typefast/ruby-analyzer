@@ -14,3 +14,6 @@ puts "#{excluding_whitespace} (excluding spaces)"
 puts "#{word_count} words"
 puts "#{sentance_count} sentances"
 puts "#{paragraph_count} paragraphs"
+
+puts "#{sentance_count / paragraph_count} sentences per paragraph (average)"
+puts "#{word_count / sentance_count} words per sentence (average)"
